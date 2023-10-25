@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volt Ear-Buds</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="box"></div>
+<!--Header Goes Here-->
+
+    </header>
+   
+   
+    <main>
+
+<!--Main content goes here-->
+
+<!--AR model goes here-->
+
+<model-viewer id="model" src="model/ear-bud-ar.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="images/poster.webp" shadow-intensity="1.5" environment-image="legacy" exposure="1" shadow-softness="0.85">
+    <button class="Hotspot" slot="hotspot-5" data-position="-949.3568372655608m -380.61696350184667m -1.571197794774605m" data-normal="0.965416595240971m -0.11980236879345035m -0.23155601928002148m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot 1">
+            <h2>New Innovation Fastest Charger</h2>
+            <p>Say goodbye to waiting. Our New Innovation Fastest Charger lets you enjoy hours of music with just a few minutes of charge. Get back to your life, powered by the quickest charging technology available.</p>
+        </div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-763.45035512236m 96.75762579592322m 0.8197194274763433m" data-normal="-0.9373740555241392m 0.3082199919754309m -0.16226619049233085m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot 2">
+            <h2>8D Dynamic Revolution Sound System</h2>
+            <p>Immerse yourself in the 8D Dynamic Revolution Sound System. Each earbud is engineered to provide a multi-dimensional audio experience, taking your music and podcasts to a whole new level.</p>
+        </div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-1017.9239294472018m 218.05647322325768m 122.55155712322187m" data-normal="2.3239005965378272e-8m -0.6789364653682279m -0.7341970280471699m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot 3">
+            <h2>Fastest Bluetooth Chip</h2>
+            <p>Never miss a beat with our Fastest Bluetooth Chip. Experience real-time audio with zero lag, making sure your devices are always in sync and ready to deliver top-notch sound.</p>
+            <img src="images/chip-img.jpg" alt="chip-img">
+        </div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="-1127.8171935087578m -135.97365282146203m -8.926707460832361m" data-normal="0.9979422999207979m 0.06411837512592214m -2.5247701011214495e-9m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot 4">
+            <h2>Gold Metal Logotype</h2>
+            <p>Elegance meets functionality. Our Gold Metal logotype isn't just a brand—it's a statement. Show off your impeccable taste while enjoying the best audio experience.</p>
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="images/ar_hand_prompt.png">
+    </div>
+</model-viewer>
+
+
+    </main>
+   
+    
+    <footer>
+
+<!--Footer Goes Here-->
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
